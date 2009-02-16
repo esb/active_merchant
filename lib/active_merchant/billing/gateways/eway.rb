@@ -129,9 +129,9 @@ module ActiveMerchant #:nodoc:
         "96" => "System Error"
       }
       
-	    self.money_format = :cents
+      self.money_format = :cents
       self.supported_countries = ['AU']
-      self.supported_cardtypes = [:visa, :master]
+      self.supported_cardtypes = [:visa, :master, :american_express, :diners_club, :jcb]
       self.homepage_url = 'http://www.eway.com.au/'
       self.display_name = 'eWAY'
 	    
